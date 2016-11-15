@@ -1,0 +1,6 @@
+/vendor
+.env
+
+#IDE
+/nbproject
+/.idea
