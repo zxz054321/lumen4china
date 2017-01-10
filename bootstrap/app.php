@@ -83,6 +83,12 @@ $app->singleton(
 // $app->register(App\Providers\EventServiceProvider::class);
 
 /*
+ * Artisan Service Provider is an optional provider required
+ * only if you want vendor:publish command working
+ */
+// $app->register(Irazasyed\Larasupport\Providers\ArtisanServiceProvider::class);
+
+/*
 |--------------------------------------------------------------------------
 | Load The Application Routes
 |--------------------------------------------------------------------------
